@@ -14,8 +14,6 @@ const config: Phaser.Types.Core.GameConfig = {
 		},
 	},
 	scene: [Scene],
-  title: 'Shock and Awesome',
-  url: 'http://shockandawe.io'
 };
 
 export default new Phaser.Game(config);
