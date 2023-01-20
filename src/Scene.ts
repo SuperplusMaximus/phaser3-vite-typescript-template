@@ -14,7 +14,7 @@ export default class Scene extends Phaser.Scene {
     }
 
     create() {
-    this.add.image(400, 300, 'sky')
+        this.add.image(400, 300, 'sky')
 
         const particles = this.add.particles('red')
 
